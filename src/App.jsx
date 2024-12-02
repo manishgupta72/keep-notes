@@ -1,9 +1,10 @@
-import "./App.css";
-import Header from "./Header";
-import Footer from "./Footer";
-import CreateNote from "./CreateNote";
-import Note from "./Note";
+import "../src/App.css";
+
 import { useState } from "react";
+import Header from "./Header";
+import Footer from './Footer';
+import CreateNote from './CreateNote';
+import Note from "./Note";
 
 function App() {
   const [addItem, setItem] = useState([]);
@@ -26,7 +27,7 @@ function App() {
 
   return (
     <>
-      <Header />
+      <Header/>
       <CreateNote passNote={addNote} />
 
       {addItem.map((val, index) => {
