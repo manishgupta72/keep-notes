@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Preahvihear&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body
+{
+  font-family: 'Preahvihear', sans-serif;
+}
+
+.header {
+  width: 100%;
+  height: 80px;
+  background-color: orange;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+img {
+  margin-left: 50px;
+  margin-right: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+
+  width: 100%;
+  text-align: center;
+}
+
+.main-note {
+
+  width: 500px;
+  padding: 15px 10px 5px 10px;
+  margin: 20px auto;
+}
+
+form {
+  min-height: 50px;
+  color: #ecf0f1;
+  padding: 15px 10px 5px 10px;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+input {
+  width: 100%;
+  line-height: 30px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1.5rem;
+  color: black;
+  margin: 10px 0;
+  font-weight: 600;
+  font-family: 'Preahvihear', sans-serif;
+}
+
+textarea {
+  width: 100%;
+  line-height: 30px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  margin: 10px 0;
+  font-family: 'Preahvihear', sans-serif;
+}
+
+.btn {
+  width: 20px;
+  height: 40px;
+  position: absolute;
+  cursor: pointer;
+  background-color: #fff !important;
+  float: right;
+  bottom: 14px;
+  border-radius: 50% !important;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+.btn:hover
+{
+  background-color: rgb(255, 238, 0) !important;
+  .plus{
+    color:white !important;
+  }
+}
+.btn .plus {
+  font-size: 45px !important;
+  font-weight: 800;
+  color:grey;
+  cursor: pointer;
+  background: transparent;
+  z-index: 222;
+}
+.note
+{
+  width:300px;
+  
+  padding:20px;
+  margin: 20px;
+  background-color: transparent;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  float: left;
+}
+.notebtn {
+  cursor: pointer;
+  width: 30px;
+  float: right;
+  background-color: #fff !important;
+  border-radius: 50% !important;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.notebtn:hover
+{
+  background-color: orange !important;
+  .deleteIcon{
+    color:white !important;
+  }
+} 
+.notebtn .deleteIcon
+{
+  color:orange;
+}
